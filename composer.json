@@ -1,0 +1,22 @@
+{
+"name": "Magento/Phpsdk",
+"version":"dev-master",
+"description": "Test PHP sdk",
+"license": "MIT",
+"keywords": ["composer"],
+"authors": [
+{
+"name": "Tryzens",
+"email": "manaf.pm@tryzens.com"
+}
+],
+"require": {},
+"require-dev": {
+"phpunit/phpunit": "4.0.*"
+},
+"autoload": {
+"psr-4": {
+"Magento\\Phpsdk\\": "src"
+}
+}
+}
